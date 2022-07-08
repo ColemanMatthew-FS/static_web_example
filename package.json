@@ -1,0 +1,25 @@
+{
+  "name": "static_web_example",
+  "version": "1.0.0",
+  "description": "NodeJS Express Static Web Site",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "Website",
+    "Static",
+    "Express"
+  ],
+  "author": "Matthew Coleman",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
