@@ -11,8 +11,8 @@ router.get("/about", (req,res)=>{
     res.sendFile(path.join(__dirname, "..", "/views/about.html"));
 });
 
-router.get("/index", (req,res)=>{
-    res.sendFile(path.join(__dirname, "..", "/views/index.html"));
+router.get("/contact", (req,res)=>{
+    res.sendFile(path.join(__dirname, "..", "/views/contact.html"));
 });
 
 router.get("/post", (req,res)=>{
